@@ -1,8 +1,7 @@
 pipeline {
   agent {
     docker {
-      image 'tomcat'
-      args '-p 8082:8080'
+      image 'maven:3.5.0-jdk-8'
     }
 
   }
